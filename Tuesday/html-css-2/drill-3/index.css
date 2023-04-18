@@ -1,0 +1,77 @@
+* {
+    margin: 0%;
+    padding: 0%;
+    
+}
+
+#topBorder {
+    background-color:lightgrey;
+    width: auto;
+    height: 100px;
+}
+
+.flex {
+    display: flex;
+}
+
+#questionMark {
+    position: fixed;
+    bottom: 10px;
+    right: 10px;
+}
+
+.circle {
+    background-color: black;
+    border-radius: 50%;
+    width: 45px;
+    height: 45px;
+}
+
+.align {
+    position: fixed;
+    bottom: 19px;
+    right: 27px;
+}
+
+.custom {
+    color: white;
+    font-size: 24px;
+    font-weight: 400;
+}
+.blueBG {
+    background-color:cornflowerblue;
+}
+
+.square {
+    width: 60px;
+    height: 60px;
+    align-self: center;
+    margin-left: 20px;
+}
+
+#textBorder {
+    margin-top: 8%;
+    margin-bottom: 8%;
+    margin-left: 5%;
+    margin-right: 5%;
+}
+
+#lowerBorder {
+    width: auto;
+    height: auto;
+}
+.colorBorders {
+    width: auto;
+    height: 200px;
+}
+.aquamarineBG {
+    background-color: aquamarine;
+}
+
+.greenyellowBG {
+    background-color:greenyellow;
+}
+
+.yellowBG {
+    background-color: yellow;
+}
