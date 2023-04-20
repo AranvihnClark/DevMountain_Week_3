@@ -23,3 +23,10 @@ let printDigits = num => {
 }
 
 console.log(`The reverse of 34828 is:`, printDigits(34828));
+
+let printDigits = num => {
+    while(num > 0) {
+        console.log(num%10);
+        num = (num - (num % 10)) / 10;
+    }
+}
